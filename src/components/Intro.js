@@ -14,7 +14,9 @@ const Wrapper = styled.section`
 `;
 
 const Image = styled.img`
-  width: 25em;
+  max-width: 25em;
+  width: 100%;
+  height: auto;
   border-radius: 25em;
 `;
 

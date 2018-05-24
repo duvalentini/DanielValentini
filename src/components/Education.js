@@ -14,7 +14,9 @@ const Title = styled.h1`
 `;
 
 const Image = styled.img`
-  width: 25em;
+  max-width: 25em;
+  width: 100%;
+  height: auto;
 `;
 
 class Education extends Component {
