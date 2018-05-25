@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import osu from '../images/block_o.png';
 
 const Wrapper = styled.section`
   padding: 4em;
-  background: #F2F4F4;
+  background: lightblue;
 `;
 
 const Title = styled.h1`
@@ -14,12 +13,6 @@ const Title = styled.h1`
   padding-bottom: 0.5em;
 `;
 
-const Image = styled.img`
-  max-width: 25em;
-  width: 100%;
-  height: auto;
-`;
-
 const Info = styled.p`
   font-size: 1.5em;
   text-align: center;
@@ -27,22 +20,19 @@ const Info = styled.p`
   padding-top: 1em;
 `;
 
-class Education extends Component {
+class ChefD extends Component {
   render() {
     return (
       <Wrapper>
         <Title>
-          Education
+          Chef D
         </Title>
-        <Image src={osu} />
         <Info>
-          B.S. Computer Science & Engineering<br/>
-          Class of 2016<br/>
-          Alpha Epsilon Pi
+          Food pics to come.
         </Info>
       </Wrapper>
     );
   }
 }
 
-export default Education;
+export default ChefD;
