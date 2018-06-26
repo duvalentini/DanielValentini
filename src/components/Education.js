@@ -4,7 +4,7 @@ import osu from '../images/block_o.png';
 
 const Wrapper = styled.section`
   padding: 4em;
-  background: #F2F4F4;
+  background: linear-gradient(white, #6666);
 `;
 
 const Title = styled.h1`
@@ -12,6 +12,9 @@ const Title = styled.h1`
   text-align: center;
   color: black;
   padding-bottom: 0.5em;
+  font-weight: 300;
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
 `;
 
 const Image = styled.img`

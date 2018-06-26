@@ -3,5 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
 }
