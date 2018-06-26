@@ -27,7 +27,7 @@ class Header extends Component {
       >
         <a id="me" className="menu-item" href="/#me" onClick={() => {this.closeMenu()}}>Me</a>
         <a id="education" className="menu-item" href="/#education" onClick={() => {this.closeMenu()}}>Education</a>
-        <a id="chefd" className="menu-item" href="/#chefd" onClick={() => {this.closeMenu()}}>Chef D</a>
+        {/*<a id="chefd" className="menu-item" href="/#chefd" onClick={() => {this.closeMenu()}}>Chef D</a>*/}
       </Menu>
     );
   }

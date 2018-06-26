@@ -18,6 +18,11 @@ const Image = styled.img`
 const Link = styled.img`
   width: 5em;
   margin: 1em;
+  &:hover {
+    transform: translateY(-4px);
+    opacity: 0.5;
+    transition-timing-function: ease-in-out;
+  }
 `;
 
 const LinkContainer = styled.div`

@@ -19,7 +19,7 @@ export const styles = {
   bmMenu: {
     background: '#373a47',
     padding: '2.5em 1.5em 0',
-    fontSize: '1.15em'
+    fontSize: '2.5em'
   },
   bmMorphShape: {
     fill: '#373a47'
