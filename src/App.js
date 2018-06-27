@@ -17,9 +17,9 @@ class App extends Component {
         <ScrollableAnchor id={'education'}>
           <Education />
         </ScrollableAnchor>
-        {/*<ScrollableAnchor id={'chefd'}>
+        <ScrollableAnchor id={'chefd'}>
           <ChefD />
-        </ScrollableAnchor>*/}
+        </ScrollableAnchor>
       </div>
     );
   }

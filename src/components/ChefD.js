@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Carousel from './Carousel';
-import block_o from '../images/block_o.png';
+import amatriciana from '../images/amatriciana.jpg';
+import carnitas from '../images/carnitas.jpg';
+import chili from '../images/chili.jpg';
+import hot_chicken from '../images/hot_chicken.jpg';
+import tikka_masala from '../images/tikka_masala.jpg';
+import vongole from '../images/vongole.jpg';
 
 const Wrapper = styled.section`
   padding: 4em;
-  background: lightblue;
+  background: linear-gradient(#6666, white);
 `;
 
 const Title = styled.h1`
   font-size: 3em;
   text-align: center;
   color: black;
-  padding-bottom: 0.5em;
+  font-weight: 300;
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
 `;
 
 const Info = styled.p`
@@ -22,6 +29,33 @@ const Info = styled.p`
   padding-top: 1em;
 `;
 
+const pictures = [
+  {
+    image: carnitas,
+    title: 'Taco de Carnitas'
+  },
+  {
+    image: amatriciana,
+    title: 'Rigatoni All\'Amatriciana'
+  },
+  {
+    image: chili,
+    title: 'Chili con Carne'
+  },
+  {
+    image: hot_chicken,
+    title: 'Nashville Hot Chicken'
+  },
+  {
+    image: tikka_masala,
+    title: 'Chicken Tikka Masala'
+  },
+  {
+    image: vongole,
+    title: 'Linguine alle Vongole'
+  }
+];
+
 class ChefD extends Component {
   render() {
     return (
@@ -30,9 +64,9 @@ class ChefD extends Component {
           Chef D
         </Title>
         <Info>
-          Food pics to come.
+          Recent Creations
         </Info>
-       <Carousel pictures={[block_o]}/>
+        <Carousel pictures={pictures}/>
       </Wrapper>
     );
   }
