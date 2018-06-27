@@ -42,10 +42,10 @@ const pictures = [
     image: chili,
     title: 'Chili con Carne'
   },
-  {
-    image: hot_chicken,
-    title: 'Nashville Hot Chicken'
-  },
+  // {
+  //   image: hot_chicken,
+  //   title: 'Nashville Hot Chicken'
+  // },
   {
     image: tikka_masala,
     title: 'Chicken Tikka Masala'
