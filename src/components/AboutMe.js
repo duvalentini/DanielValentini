@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import osu from '../images/block_o.png';
 import { Wrapper, Title, Image, Info } from './styles/AboutMeComponents';
 
 class Education extends Component {
@@ -7,13 +6,13 @@ class Education extends Component {
     return (
       <Wrapper>
         <Title>
-          Education
+          About Me
         </Title>
-        <Image src={osu} />
+        <Title>
+          put picture here
+        </Title>
         <Info>
-          B.S. Computer Science & Engineering<br/>
-          Class of 2016<br/>
-          Alpha Epsilon Pi
+          Short paragraph describing myself.
         </Info>
       </Wrapper>
     );

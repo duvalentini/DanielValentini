@@ -5,7 +5,6 @@ import Intro from './components/Intro';
 import Education from './components/Education';
 import Header from './components/Header';
 import ChefD from './components/ChefD';
-import AboutMe from './components/AboutMe';
 
 class App extends Component {
   render() {
@@ -14,9 +13,6 @@ class App extends Component {
         <Header />
         <ScrollableAnchor id={'me'}>
           <Intro />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={'about-me'}>
-          <AboutMe />
         </ScrollableAnchor>
         <ScrollableAnchor id={'education'}>
           <Education />

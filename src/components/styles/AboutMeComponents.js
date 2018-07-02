@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  padding: 4em;
-  background: linear-gradient(white, #6666);
+  padding-top: 15em;
 `;
 
 const Title = styled.h1`

@@ -26,7 +26,6 @@ class Header extends Component {
         styles={styles}
       >
         <a id="me" className="menu-item" href="/#me" onClick={() => {this.closeMenu()}}>Me</a>
-        <a id="about-me" className="menu-item" href="/#about-me" onClick={() => {this.closeMenu()}}>About Me</a>
         <a id="education" className="menu-item" href="/#education" onClick={() => {this.closeMenu()}}>Education</a>
         <a id="chefd" className="menu-item" href="/#chefd" onClick={() => {this.closeMenu()}}>Chef D</a>
       </Menu>
