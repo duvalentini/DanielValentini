@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Wrapper, Title, Image, Info } from './styles/AboutMeComponents';
+import me from '../images/me.jpg';
 
 class Education extends Component {
   render() {
@@ -8,11 +9,9 @@ class Education extends Component {
         <Title>
           About Me
         </Title>
-        <Title>
-          put picture here
-        </Title>
+        <Image src={me} />
         <Info>
-          Short paragraph describing myself.
+          Born in raised in Cincinnati. Currently living and working in Boston.
         </Info>
       </Wrapper>
     );

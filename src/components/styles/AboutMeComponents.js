@@ -15,9 +15,11 @@ const Title = styled.h1`
 `;
 
 const Image = styled.img`
-  max-width: 25em;
+  max-width: 22em;
   width: 100%;
   height: auto;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
 const Info = styled.p`
