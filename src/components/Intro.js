@@ -3,6 +3,7 @@ import tini from '../images/tini.jpg';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
 import { Wrapper, Image, LinkContainer, Link } from './styles/IntroComponents';
+import AboutMe from './AboutMe';
 
 class Intro extends Component {
   render() {
@@ -17,6 +18,7 @@ class Intro extends Component {
             <Link src={github} />
           </a>
         </LinkContainer>
+        <AboutMe />
       </Wrapper>
     );
   }
