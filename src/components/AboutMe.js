@@ -22,7 +22,7 @@ class AboutMe extends Component {
         <InfoContainer expanded={this.state.expanded} onClick={this.expandText.bind(this)} >
           <Info>
             Born in raised in Cincinnati. I am a software engineer currently living and working in Boston.
-            I am a lover of all things food and enjoy experimenting with new recipes in my free time.
+            I am a lover of travel, music, video games, and all things food.
           </Info>
         </InfoContainer>
       </Wrapper>
