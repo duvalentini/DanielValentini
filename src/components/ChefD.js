@@ -3,7 +3,6 @@ import Carousel from './Carousel';
 import amatriciana from '../images/amatriciana.jpg';
 import carnitas from '../images/carnitas.jpg';
 import chili from '../images/chili.jpg';
-import hot_chicken from '../images/hot_chicken.jpg';
 import tikka_masala from '../images/tikka_masala.jpg';
 import vongole from '../images/vongole.jpg';
 import { Wrapper, Title, Info } from './styles/ChefDComponents';
